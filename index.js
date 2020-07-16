@@ -9,14 +9,14 @@ client.once('ready', () => {
 });
 
 client.on('message', message =>{
-    if(!message.content.startsWith(prefix) || message.author.client) return;
+    if(message.content.startsWith(prefix) || message.author.client) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
-    if (command === "youtube"){
+    if (command === 'youtube'){
         message.channel.send('https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ');
-    } else if (command === "twitch"){
+    } else if (command === 'twitch'){
         message.channel.send('https://twitch.tv/dorito__soup', 'https://twitch.tv/daecu8603');
     } 
 });
