@@ -21,14 +21,14 @@ client.on('message', message =>{
     } 
 })
 
-client.on('message', message =>{
+client.on('message', message => {
     if(message.content === "fuck", "FUCK"){
         message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
-    } else if (message.content == "fruck" || "FRUCK"){
+    } else if (message.content === "fruck" || "FRUCK"){
         message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
-    } else if (message.content == "hello?" || "HELLO?" || "Hello?" || "hello" || "HELLO" || "Hello"){
+    } else if (message.content === "hello?", "HELLO?", "Hello?", "hello", "HELLO", "Hello"){
         message.channel.send('Hello :)');
-    } else if (message.content == "ping"){
+    } else if (message.content === "ping"){
         message.channel.reply('Pong!')
     }
 
