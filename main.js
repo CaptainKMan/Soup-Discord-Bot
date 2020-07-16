@@ -8,7 +8,7 @@ const prefix = '|';
 
 }
 
-bot.once('ready', () => {
+client.on('ready', () => {
     console.log('Soup is online!');
     client.user.setActivity("with MemeSoup's internet", { type: 'PLAYING'}).catch(console.error);
 });
