@@ -1,7 +1,7 @@
 { //constants
 const Discord = require('discord.js')
 
-const client = new Discord.Client(client);
+const client = new Discord.Client();
 
 const prefix = '|';
 
