@@ -6,7 +6,7 @@ const prefix = '|';
 
 client.once('ready', () => {
     console.log('Soup is Online!');
-})
+});
 
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.client) return;
@@ -19,7 +19,7 @@ client.on('message', message =>{
     } else if (command === 'twitch'){
         message.channel.send('https://twitch.tv/dorito__soup', 'https://twitch.tv/daecu8603');
     } 
-})
+});
 
 client.on('message', message =>{
     if(message.content === "fuck"){
@@ -34,7 +34,7 @@ client.on('message', message =>{
         message.channel.send('Pong!')
     }
 
-})
+});
 
 
 
