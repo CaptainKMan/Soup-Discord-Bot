@@ -1,20 +1,20 @@
 { //constants
 const Discord = require('discord.js')
 
-const bot = new Discord.Client();
+const client = new Discord.Client();
 
 const prefix = '|';
 
 
 }
 
-bot.once('ready', () => {
+client.once('ready', () => {
     console.log('Soup is online!');
-    bot.user.setActivity("with MemeSoup's internet", { type: 'PLAYING'}).catch(console.error);
+    client.user.setActivity("with MemeSoup's internet", { type: 'PLAYING'}).catch(console.error);
 });
 
-bot.on('message', message =>{
-    if(!message.content.startswith(prefix) || message.author.bot) return;
+client.on('message', message =>{
+    if(!message.content.startswith(prefix) || message.author.client) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
@@ -26,7 +26,7 @@ bot.on('message', message =>{
     } 
 })
 
-bot.on('message', message =>{
+client.on('message', message =>{
     if(message.content === "fuck", "FUCK"){
         message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
     } else if (message.content == "fruck" || "FRUCK"){
