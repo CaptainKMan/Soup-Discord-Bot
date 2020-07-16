@@ -26,12 +26,12 @@ client.on('message', message =>{
         message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
     } else if (message.content === "fruck"){
         message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
-    } else if (message.content === 'ping'){
-        message.channel.send('Pong!')
     } else if (message.content === "FRUCK"){
         message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
     } else if (message.content === "FUCK"){
         message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
+    } else if (message.content === 'ping'){
+        message.channel.send('Pong!')
     }
 
 })
