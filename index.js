@@ -22,12 +22,12 @@ client.on('message', message =>{
 })
 
 client.on('message', message =>{
-    if(message.content === "fuck", "FUCK"){
-        message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
-    } else if (message.content === "fruck", "FRUCK"){
-        message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
+    if(message.content === "fuck"){
+        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
+    } else if (message.content === "fruck"){
+        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
     } else if (message.content === "ping"){
-        message.channel.reply('Pong!')
+        message.reply('Pong!')
     }
 
 })
