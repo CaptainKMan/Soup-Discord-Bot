@@ -5,16 +5,6 @@ const bot = new Discord.Client();
 
 const prefix = '|';
 
-const fs = require('fs');
-
-bot.commands = new Discord.Collection();
-
-const commandFiles = fs.readdirSYnc('./').filter(file => file.endsWith('.js'));
-for(const file of commandFiles){
-    const command = require(`./${file}`);
-
-    bot.commands.set(command.name, command);
-}
 
 }
 
@@ -30,21 +20,21 @@ bot.on('message', message =>{
     const command = args.shift().toLowerCase();
 
     if (command == 'youtube'){
-        bot.commands.get('youtube').execute(message, args)
+        message.channel.send("https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ");
     } else if (command == 'twitch'){
-        bot.commands.get('twitch').execute(message, args)
+        message.channel.send("https://twitch.tv/dorito__soup", "https://twitch.tv/daecu8603");
     } 
 })
 
 bot.on('message', message =>{
     if(message.content === "fuck", "FUCK"){
-        bot.commands.get('fuck').execute(message, args)
+        message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
     } else if (message.content == "fruck" || "FRUCK"){
-        bot.commands.get('fruck').execute(message, args)
+        message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
     } else if (message.content == "hello?" || "HELLO?" || "Hello?" || "hello" || "HELLO" || "Hello"){
-        bot.commands.get('hello').execute(message, args);
+        message.channel.send('Hello :)');
     } else if (message.content == "ping"){
-        bot.commands.get('ping').execute(message, args)
+        message.channel.reply('Pong!')
     }
 
 })
