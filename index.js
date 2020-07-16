@@ -17,7 +17,7 @@ client.on('message', message =>{
     if (command === 'youtube'){
         message.channel.send('https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ');
     } else if (command === 'twitch'){
-        message.channel.send('https://twitch.tv/dorito__soup' & 'https://twitch.tv/daecu8603');
+        message.channel.send('https://twitch.tv/dorito__soup https://twitch.tv/daecu8603');
     } 
 });
 
