@@ -9,7 +9,7 @@ client.once('ready', () => {
 })
 
 client.on('message', message =>{
-    if(!message.content.startswith(prefix) || message.author.client) return;
+    if(!message.content.startsWith(prefix) || message.author.client) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
@@ -24,7 +24,7 @@ client.on('message', message =>{
 client.on('message', message =>{
     if(message.content === "fuck", "FUCK"){
         message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
-    } else if (message.content === "fruck" || "FRUCK"){
+    } else if (message.content === "fruck", "FRUCK"){
         message.channel.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
     } else if (message.content === "ping"){
         message.channel.reply('Pong!')
