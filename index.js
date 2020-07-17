@@ -34,7 +34,7 @@ client.on('message', message =>{
     } else if (command === 'rick'){
         message.channel.send('https://images.app.goo.gl/oTt3wVVgrqo8Wv7Y7');
     } else if (command === 'rick2'){
-        message.channel.send('https://youtu.be/dQw4w9WgXcQ')
+        message.channel.send('https://images.app.goo.gl/dhwsW3tcXbeu1vud7')
     } else if (command === 'member'){
         if (!args.length) {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
