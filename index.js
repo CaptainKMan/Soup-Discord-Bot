@@ -22,19 +22,6 @@ client.on('message', message =>{
     } 
 });
 
-client.on('message', message =>{
-
-    let args = message.content.slice(prefix.length).split(/ +/);
-
-    switch(args[0]){
-        case 'link':
-            const embed = new Discord.MessageEmbed()
-            .addField('Youtube', message.url);
-            message.channel.send('https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ')
-        break;
-    }
-})
-
 
 client.on('message', message =>{
     if(message.content === "fuck"){
