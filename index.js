@@ -58,7 +58,7 @@ client.on('message', message => {
             .setTimestamp()
             .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
         
-        channel.send(exampleEmbed););
+        channel.send(exampleEmbed);
         }
         else if (args[0] === '<@357663989418688513>'){
             return message.channel.send('*Under Construction*')
