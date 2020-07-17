@@ -32,7 +32,7 @@ client.on('message', message =>{
     }  else if (command === 'help'){
         message.author.send('https://raw.githubusercontent.com/CaptainKMan/Readme/master/README.md');
     } else if (command === 'rick'){
-        message.channel.send('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjBlouM4dTqAhXxkOAKHbtvCGMQjRx6BAgBEAQ&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fweve-been-tricked-weve-been-backstabbed-and-weve-been-quite-possibly-bamboozled&psig=AOvVaw27ASHyExUh3TvNI5jHu8EG&ust=1595091518085229');
+        message.channel.send('https://images.app.goo.gl/oTt3wVVgrqo8Wv7Y7');
     }
 
 });
