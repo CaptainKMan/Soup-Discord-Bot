@@ -39,7 +39,7 @@ client.on('message', message => {
         if (!args.length) {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
-        else if (args[0] === '<@142126035301957632>'){
+        else if (args[0] === 'fluxsoup'){
              const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Some title')
@@ -60,22 +60,22 @@ client.on('message', message => {
         
         channel.send(exampleEmbed);
         }
-        else if (args[0] === '<@357663989418688513>'){
+        else if (args[0] === 'doritosoup'){
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === '<@399172695213735936>'){
+        else if (args[0] === 'memesoup'){
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === '<@622181058841935883>'){
+        else if (args[0] === 'ghostsoup'){
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === '<@330761771943985155>'){
+        else if (args[0] === 'bearsoup'){
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === '<@513683756012273664>'){
+        else if (args[0] === 'elmosoup'){
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === '<@398587405369737217>'){
+        else if (args[0] === 'chungussoup'){
             return message.channel.send('*Under Construction*')
         }
     }
