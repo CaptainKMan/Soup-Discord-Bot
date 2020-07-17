@@ -43,7 +43,7 @@ client.on('message', message => {
             const fluxsoup = new Discord.MessageEmbed()
                 .setColor('#0099ff')
                 .setTitle('FluxSoup. (a.k.a Scott)')
-                .setURL('')
+                .setURL('https://www.twitch.tv/thejellysoup')
                 .setDescription('The founder and supreme leader of the Soup Kitchen.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/142126035301957632/08b1a2878dfc107da0fa93b9231bf440.png?size=1024')
                 .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
@@ -76,7 +76,7 @@ client.on('message', message => {
             const ghostsoup = new Discord.MessageEmbed()
                 .setColor('#0099ff')
                 .setTitle('GhostSoup. (a.k.a GhostRaider)')
-                .setURL('')
+                .setURL('https://www.twitch.tv/ghostsoop')
                 .setDescription('The only legitimate weeb in the Soup kitchen.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/513683756012273664/854fd909441c5c116484fbea87b1e0fe.png?size=1024')
                 .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
