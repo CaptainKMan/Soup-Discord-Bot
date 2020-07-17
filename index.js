@@ -22,7 +22,7 @@ client.on('message', message =>{
     } else if (command === 'members'){
         message.channel.send('The current Soup Kitchen members are:');
     } else if (command === 'members'){
-        message.channel.send(' <@142126035301957632>');
+        message.channel.send('<@142126035301957632>');
     } else if (command === 'members'){
         message.channel.send('<@357663989418688513>');
     } else if (command === 'members'){
