@@ -40,19 +40,16 @@ client.on('message', message => {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
         else if (args[0] === 'fluxsoup'){
-            const fluxsoup = new Discord.MessageEmbed()
+            const fluxsoupembed = new Discord.MessageEmbed()
             .setColor('#0099ff')
             .setTitle('FluxSoup. (a.k.a Scott)')
             .setURL('')
             .setAuthor('DoritoSoup.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024', 'https://twitch.tv/dorito__soup')
             .setDescription('The founder and supreme leader of the Soup Kitchen.')
-            .setThumbnail('https://i.imgur.com/wSTFkRM.png')
-            .addField('Inline field title', 'Some value here', true)
-            .setImage('https://i.imgur.com/wSTFkRM.png')
-            .setTimestamp()
-            .setFooter('Last Updated 7/17/2020', 'https://i.imgur.com/wSTFkRM.png');
+            .setThumbnail('https://cdn.discordapp.com/avatars/142126035301957632/08b1a2878dfc107da0fa93b9231bf440.png?size=1024')
+            .setFooter('Last Updated by DoritoSoup on 7/17/2020', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
         
-        message.channel.send(fluxsoup);
+        message.channel.send(fluxsoupembed);
         }
         else if (args[0] === 'doritosoup'){
             return message.channel.send('*Under Construction*')
