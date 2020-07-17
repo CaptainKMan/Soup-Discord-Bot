@@ -29,6 +29,8 @@ client.on('message', message =>{
         message.channel.send('<@330761771943985155>'), 
         message.channel.send('<@513683756012273664>'), 
         message.channel.send('<@398587405369737217>');
+    }  else if (message.content === 'help'){
+        message.author.send('https://github.com/CaptainKMan/Readme/blob/953ba0201c9f4140467dfc4228e719cbd583a0c2/README.md');
     }
 
 });
@@ -63,8 +65,6 @@ client.on('message', message =>{
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
     } else if (message.content === 'Lmao'){
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
-    } else if (message.content === 'help'){
-        message.author.reply('https://github.com/CaptainKMan/Readme/blob/953ba0201c9f4140467dfc4228e719cbd583a0c2/README.md');
     }
 
 });
