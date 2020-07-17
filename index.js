@@ -66,7 +66,7 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('MemeSoup. (a.k.a DaeCu8603)')
                 .setURL('https://twitch.tv/daecu8603')
-                .setDescription('The one Soup Kitchen member that never stops posting memes.')
+                .setDescription('The one Soup Kitchen member that never stops posting iFunny memes.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/398587405369737217/ffe2226276e727ee4de0d47d95eeb929.png?size=1024')
                 .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
