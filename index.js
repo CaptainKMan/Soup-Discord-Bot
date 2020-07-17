@@ -45,8 +45,8 @@ client.on('message', message => {
             .setTitle('FluxSoup. (a.k.a Scott)')
             .setURL('')
             .setDescription('The founder and supreme leader of the Soup Kitchen.')
-            .setThumbnail(142126035301957632.avatarURL)
-            .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+            .setThumbnail(bot.guilds.resolve(704885544986869841).members.resolve(142126035301957632).user.avatarURL())
+            .setFooter('Last Updated by DoritoSoup on 7/17/2020.', bot.guilds.resolve(704885544986869841).members.resolve(357663989418688513).user.avatarURL());
         
         return message.channel.send(fluxsoup);
         }
