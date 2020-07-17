@@ -56,16 +56,16 @@ client.on('message', message =>{
     } else if (message.content === 'LMAO'){
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
     } else if (message.content === 'help'){
-        user.sendMessage('# Soup-Discord-Bot'),
-        user.sendMessage("The Soup Kitchen's bot"),
-        user.sendMessage(' '),
-        user.sendMessage('Current Version = 0.0.2'),
-        user.sendMessage(' '),
-        user.sendMessage('Commands:'),
-        user.sendMessage("|youtube = sends the Soup Kitchen's youtube link"),
-        user.sendMessage("|twitch = sends the Soup Kitchen's Member's Twitch.tv links"),
-        user.sendMessage("|members = Lists the Soup Kitchen's members"),
-        user.sendMessage('|help = lists commands');
+        message.send.author('# Soup-Discord-Bot'),
+        message.send.author("The Soup Kitchen's bot"),
+        message.send.author(' '),
+        message.send.author('Current Version = 0.0.2'),
+        message.send.author(' '),
+        message.send.author('Commands:'),
+        message.send.author("|youtube = sends the Soup Kitchen's youtube link"),
+        message.send.author("|twitch = sends the Soup Kitchen's Member's Twitch.tv links"),
+        message.send.author("|members = Lists the Soup Kitchen's members"),
+        message.send.author('|help = lists commands');
     }
 
 });
