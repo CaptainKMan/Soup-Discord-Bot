@@ -29,12 +29,34 @@ client.on('message', message =>{
         message.channel.send('<@330761771943985155>'), 
         message.channel.send('<@513683756012273664>'), 
         message.channel.send('<@398587405369737217>');
-    }  else if (command === 'help'){
+    } else if (command === 'help'){
         message.author.send('https://raw.githubusercontent.com/CaptainKMan/Readme/master/README.md');
     } else if (command === 'rick'){
         message.channel.send('https://images.app.goo.gl/oTt3wVVgrqo8Wv7Y7');
     } else if (command === 'rick2'){
         message.channel.send('https://youtu.be/dQw4w9WgXcQ')
+    } else if (command === 'member'){
+        if (command === 'MemeSoup.'){
+            const exampleEmbed = new Discord.MessageEmbed()
+	.setColor('#0099ff')
+	.setTitle('Some title')
+	.setURL('https://discord.js.org/')
+	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+	.setDescription('Some description here')
+	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
+	.addFields(
+		{ name: 'Regular field title', value: 'Some value here' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+	)
+	.addField('Inline field title', 'Some value here', true)
+	.setImage('https://i.imgur.com/wSTFkRM.png')
+	.setTimestamp()
+	.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+
+    channel.send(exampleEmbed);
+        }
     }
 
 });
@@ -72,6 +94,9 @@ client.on('message', message =>{
     }
 
 });
+
+
+
 
 //Last Line of File
 client.login(process.env.BOT_TOKEN);
