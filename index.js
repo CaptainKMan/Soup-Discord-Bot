@@ -35,10 +35,15 @@ client.on('message', message =>{
         message.channel.send('https://images.app.goo.gl/oTt3wVVgrqo8Wv7Y7');
     } else if (command === 'rick2'){
         message.channel.send('https://youtu.be/dQw4w9WgXcQ')
-    } else if (command === 'member'){
-        if (args === 'MemeSoup.'){
-            message.channel.send('helo');
-        }
+    } 
+    
+    switch(args[0]){
+        case 'member':
+            if(args[1] === 'MemeSoup.'){
+                message.channel.send('*Under Construction*');
+            }else{
+                
+            }
     }
 
 });
