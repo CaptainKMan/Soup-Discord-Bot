@@ -51,22 +51,70 @@ client.on('message', message => {
             return message.channel.send(fluxsoup);
         }
         else if (args[0] === 'doritosoup') {
-            return message.channel.send('*Under Construction*')
+            const doritosoup = new Discord.MessageEmbed()
+                .setColor('#0099ff')
+                .setTitle('DoritoSoup. (a.k.a Captain_KMan)')
+                .setURL('https://twitch.tv/dorito__soup')
+                .setDescription('The CEO and promoter of the Soup Kitchen.')
+                .setThumbnail('https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+
+            return message.channel.send(doritosoup);
         }
         else if (args[0] === 'memesoup') {
-            return message.channel.send('*Under Construction*')
+            const memesoup = new Discord.MessageEmbed()
+                .setColor('#0099ff')
+                .setTitle('MemeSoup. (a.k.a DaeCu8603)')
+                .setURL('https://twitch.tv/daecu8603')
+                .setDescription('The one Soup Kitchen member that never stops posting memes.')
+                .setThumbnail('https://cdn.discordapp.com/avatars/398587405369737217/ffe2226276e727ee4de0d47d95eeb929.png?size=1024')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+
+            return message.channel.send(memesoup);
         }
         else if (args[0] === 'ghostsoup') {
-            return message.channel.send('*Under Construction*')
-        }
-        else if (args[0] === 'bearsoup') {
-            return message.channel.send('*Under Construction*')
+            const ghostsoup = new Discord.MessageEmbed()
+                .setColor('#0099ff')
+                .setTitle('GhostSoup. (a.k.a GhostRaider)')
+                .setURL('https://twitch.tv/hibannawhatsmyname')
+                .setDescription('The only legitimate weeb in the Soup kitchen.')
+                .setThumbnail('https://cdn.discordapp.com/avatars/513683756012273664/854fd909441c5c116484fbea87b1e0fe.png?size=1024')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+
+            return message.channel.send(ghostsoup);
         }
         else if (args[0] === 'elmosoup') {
-            return message.channel.send('*Under Construction*')
+            const elmosoup = new Discord.MessageEmbed()
+                .setColor('#0099ff')
+                .setTitle('ElmoSoup. (a.k.a TZAR_ELMO)')
+                .setURL('')
+                .setDescription('The one Soup Kitchen member who likes elmo a little too much.')
+                .setThumbnail('https://cdn.discordapp.com/avatars/399172695213735936/e490fc22be4ff420245998a1e5f4fa12.png?size=1024')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+
+            return message.channel.send(elmosoup);
+        }
+        else if (args[0] === 'bearsoup') {
+            const bearsoup = new Discord.MessageEmbed()
+                .setColor('#0099ff')
+                .setTitle('BearSoup. (a.k.a Josephbres_V12)')
+                .setURL('https://www.youtube.com/channel/UCvTds_DwADGRxGwSwmOpM9w?view_as=subscriber')
+                .setDescription('The only Soup Kitchen member who has a somewhat successful YouTube channel.')
+                .setThumbnail('https://media.discordapp.net/attachments/710514766082474044/724962527162794044/rainbow.gif')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+
+            return message.channel.send(bearsoup);
         }
         else if (args[0] === 'chungussoup') {
-            return message.channel.send('*Under Construction*')
+            const chungussoup = new Discord.MessageEmbed()
+                .setColor('#0099ff')
+                .setTitle('ChungusSoup. (a.k.a GamePlay2534)')
+                .setURL('https://www.youtube.com/channel/UCG-I_ZhYde5yWZl6i86UqAQ')
+                .setDescription('The one Soup Kitchen member who always leaves games in the middle of matches.')
+                .setThumbnail('https://i.pinimg.com/236x/6e/eb/ec/6eebec182f4d5b235cd7fea6037484d1.jpg')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+
+            return message.channel.send(chungussoup);
         }
     }
 
