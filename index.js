@@ -16,7 +16,7 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase();
 
     if (command === 'youtube'){
-        message.channel.send('https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ');
+        message.channel.send('```https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ```');
     } else if (command === 'twitch'){
         message.channel.send('```https://twitch.tv/dorito__soup```'), 
         message.channel.send('```https://twitch.tv/daecu8603```');
