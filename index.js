@@ -55,6 +55,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
     } else if (message.content === 'LMAO'){
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
+    } else if (message.content === 'Lmao'){
+        message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
     } else if (message.content === 'help'){
         message.author.send('# Soup-Discord-Bot'),
         message.author.send("The Soup Kitchen's bot"),
