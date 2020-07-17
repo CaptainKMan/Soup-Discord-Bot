@@ -69,11 +69,12 @@ client.on('message', message => {
         else if (args[0] === 'chungussoup'){
             return message.channel.send('*Under Construction*')
         }
+        message.channel.send(`${args[0]} is not a Soup!`);
     }
     
     
     
-    message.channel.send(`${args[0]} is not a Soup!`);
+    
 });
 
 
