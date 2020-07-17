@@ -21,13 +21,13 @@ client.on('message', message =>{
         message.channel.send('https://twitch.tv/dorito__soup https://twitch.tv/daecu8603');
     } else if (command === 'members'){
         message.channel.send('The current Soup Kitchen members are:'), 
-        message.channel.send('<142126035301957632>'), 
-        message.channel.send('<357663989418688513>'), 
-        message.channel.send('<399172695213735936>'), 
-        message.channel.send('<622181058841935883>'), 
-        message.channel.send('<330761771943985155>'), 
-        message.channel.send('<513683756012273664>'), 
-        message.channel.send('<398587405369737217>');
+        message.channel.send('<@142126035301957632>'), 
+        message.channel.send('<@357663989418688513>'), 
+        message.channel.send('<@399172695213735936>'), 
+        message.channel.send('<@622181058841935883>'), 
+        message.channel.send('<@330761771943985155>'), 
+        message.channel.send('<@513683756012273664>'), 
+        message.channel.send('<@398587405369737217>');
     }
 
 });
