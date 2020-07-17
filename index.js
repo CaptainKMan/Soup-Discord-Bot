@@ -6,7 +6,7 @@ const prefix = '|';
 
 client.once('ready', () => {
     console.log('Soup is Online!');
-    client.user.setActivity("MemeSoup's Internet", { type: 'STREAMING'}).catch(console.error);
+    client.user.setActivity("with MemeSoup's Internet", { type: 'PLAYING'}).catch(console.error);
 });
 
 client.on('message', message =>{
