@@ -39,10 +39,25 @@ client.on('message', message => {
         if (!args.length) {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
-        else if (args[0] === 'MemeSoup.'){
+        else if (args[0] === '<@142126035301957632>'){
             return message.channel.send('*Under Construction*');
         }
-        else if (args[0] === 'FluxSoup.'){
+        else if (args[0] === '<@357663989418688513>'){
+            return message.channel.send('*Under Construction*')
+        }
+        else if (args[0] === '<@399172695213735936>'){
+            return message.channel.send('*Under Construction*')
+        }
+        else if (args[0] === '<@622181058841935883>'){
+            return message.channel.send('*Under Construction*')
+        }
+        else if (args[0] === '<@330761771943985155>'){
+            return message.channel.send('*Under Construction*')
+        }
+        else if (args[0] === '<@513683756012273664>'){
+            return message.channel.send('*Under Construction*')
+        }
+        else if (args[0] === '<@398587405369737217>'){
             return message.channel.send('*Under Construction*')
         }
     }
