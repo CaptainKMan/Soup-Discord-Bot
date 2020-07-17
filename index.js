@@ -42,15 +42,15 @@ client.on('message', message => {
         else if (args[0] === 'fluxsoup'){
             const fluxsoup = new Discord.MessageEmbed()
             .setColor('#0099ff')
-            .setTitle('Some title')
-            .setURL('https://discord.js.org/')
-            .setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
-            .setDescription('Some description here')
+            .setTitle('FluxSoup. (a.k.a Scott)')
+            .setURL('')
+            .setAuthor('DoritoSoup.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024', 'https://twitch.tv/dorito__soup')
+            .setDescription('The founder and supreme leader of the Soup Kitchen.')
             .setThumbnail('https://i.imgur.com/wSTFkRM.png')
             .addField('Inline field title', 'Some value here', true)
             .setImage('https://i.imgur.com/wSTFkRM.png')
             .setTimestamp()
-            .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+            .setFooter('Last Updated 7/17/2020', 'https://i.imgur.com/wSTFkRM.png');
         
         message.channel.send(fluxsoup);
         }
