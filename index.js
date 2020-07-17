@@ -30,7 +30,7 @@ client.on('message', message =>{
         message.channel.send('<@513683756012273664>'), 
         message.channel.send('<@398587405369737217>');
     }  else if (command === 'help'){
-        message.author.send('https://github.com/CaptainKMan/Readme/blob/953ba0201c9f4140467dfc4228e719cbd583a0c2/README.txt');
+        message.author.send('https://github.com/CaptainKMan/Readme/blob/c76fdcc44d502c18d800e50321e9190ad0f8f832/README.txt');
     }
 
 });
