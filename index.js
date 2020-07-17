@@ -6,7 +6,7 @@ const prefix = '|';
 
 client.once('ready', () => {
     console.log('Soup is Online!');
-    client.user.setActivity("with MemeSoup's Internet", { type: 'PLAYING'}).catch(console.error);
+    client.user.setActivity("MemeSoup's Internet", { type: 'STREAMING'}).catch(console.error);
 });
 
 client.on('message', message =>{
@@ -19,7 +19,17 @@ client.on('message', message =>{
         message.channel.send('https://www.youtube.com/channel/UC0KW9Y85cFkrZyPkWrNVRUQ');
     } else if (command === 'twitch'){
         message.channel.send('https://twitch.tv/dorito__soup https://twitch.tv/daecu8603');
-    } 
+    } else if (command === 'members'){
+        message.channel.send(```The current Soup clan members are:
+        <@142126035301957632>
+        <@357663989418688513>
+        <@399172695213735936>
+        <@622181058841935883>
+        <@330761771943985155>
+        <@513683756012273664>
+        <@398587405369737217>```);
+    }
+
 });
 
 
