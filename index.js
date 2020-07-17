@@ -20,7 +20,7 @@ client.on('message', message =>{
     } else if (command === 'twitch'){
         message.channel.send('https://twitch.tv/dorito__soup https://twitch.tv/daecu8603');
     } else if (command === 'members'){
-        message.channel.send('The current Soup clan members are:');
+        message.channel.send('The current Soup Kitchen members are:');
     } else if (command === 'members'){
         message.channel.send(' <@142126035301957632>');
     } else if (command === 'members'){
