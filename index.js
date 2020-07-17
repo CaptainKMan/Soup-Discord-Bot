@@ -34,6 +34,12 @@ client.on('message', message =>{
         message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
     } else if (message.content === 'ping'){
         message.channel.send('Pong!')
+    } else if (message.content === 'Ping'){
+        message.channel.send('Pong!')
+    } else if (message.content === 'pong'){
+        message.channel.send('Ping!')
+    } else if (message.content === 'Pong'){
+        message.channel.send('Ping!')
     }
 
 });

@@ -1,6 +1,6 @@
 {
   "name": "soup-discord-bot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Soup's Discord Bot",
   "main": "index.js",
   "scripts": {
