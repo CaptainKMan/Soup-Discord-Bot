@@ -39,41 +39,42 @@ client.on('message', message => {
         if (!args.length) {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
-        else if (args[0] === 'fluxsoup'){
+        else if (args[0] === '<@142126035301957632>') {
+            const user = new Discord.User('<@142126035301957632>')
+            const author = new Discord.User('<@357663989418688513>')
             const fluxsoup = new Discord.MessageEmbed()
-            .setColor('#0099ff')
-            .setTitle('FluxSoup. (a.k.a Scott)')
-            .setURL('')
-            .setDescription('The founder and supreme leader of the Soup Kitchen.')
-            .setThumbnail(client.guilds.resolve('<704885544986869841>').members.resolve('<@142126035301957632>').user.avatarURL)
-            .setFooter('Last Updated by DoritoSoup on 7/17/2020.', client.guilds.resolve(704885544986869841).users.resolve('<@357663989418688513>').user.avatarURL());
-        
-        return message.channel.send(fluxsoup);
+                .setColor('#0099ff')
+                .setTitle('FluxSoup. (a.k.a Scott)')
+                .setURL('')
+                .setDescription('The founder and supreme leader of the Soup Kitchen.')
+                .setThumbnail(client.user.avatar_url)
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', client.author.avatar_url);
+
+            return message.channel.send('<@142126035301957632>');
         }
-        else if (args[0] === 'doritosoup'){
+        else if (args[0] === 'doritosoup') {
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === 'memesoup'){
+        else if (args[0] === 'memesoup') {
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === 'ghostsoup'){
+        else if (args[0] === 'ghostsoup') {
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === 'bearsoup'){
+        else if (args[0] === 'bearsoup') {
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === 'elmosoup'){
+        else if (args[0] === 'elmosoup') {
             return message.channel.send('*Under Construction*')
         }
-        else if (args[0] === 'chungussoup'){
+        else if (args[0] === 'chungussoup') {
             return message.channel.send('*Under Construction*')
         }
-        message.channel.send(`${args[0]} is not a Soup!`);
     }
-    
-    
-    
-    
+
+
+
+    message.channel.send(`${args[0]} is not a Soup!`);
 });
 
 
