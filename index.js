@@ -45,10 +45,10 @@ client.on('message', message => {
                 .setTitle('FluxSoup. (a.k.a Scott)')
                 .setURL('')
                 .setDescription('The founder and supreme leader of the Soup Kitchen.')
-                .setThumbnail()
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.');
+                .setThumbnail('https://cdn.discordapp.com/avatars/142126035301957632/08b1a2878dfc107da0fa93b9231bf440.png?size=1024')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
-            return message.channel.send(fluxsoup);
+            return message.channel.send("fluxsoup");
         }
         else if (args[0] === 'doritosoup') {
             return message.channel.send('*Under Construction*')
