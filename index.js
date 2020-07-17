@@ -41,6 +41,9 @@ client.on('message', message =>{
         }
         else if (args[0] === 'MemeSoup.') {
             return message.channel.send('*Under Construction*');
+        if (args[0] === 'FluxSoup.'){
+            return message.channel.send('*Under Construction*');
+        }
         }
         message.channel.send(`${args[0]} is not a Soup!`);
     }
