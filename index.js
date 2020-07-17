@@ -40,7 +40,7 @@ client.on('message', message => {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
         else if (args[0] === 'fluxsoup'){
-             const exampleEmbed = new Discord.MessageEmbed()
+            const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Some title')
             .setURL('https://discord.js.org/')
@@ -58,7 +58,7 @@ client.on('message', message => {
             .setTimestamp()
             .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
         
-        channel.send(exampleEmbed);
+        message.channel.send(exampleEmbed);
         }
         else if (args[0] === 'doritosoup'){
             return message.channel.send('*Under Construction*')
