@@ -33,6 +33,8 @@ client.on('message', message =>{
         message.author.send('https://raw.githubusercontent.com/CaptainKMan/Readme/master/README.md');
     } else if (command === 'rick'){
         message.channel.send('https://images.app.goo.gl/oTt3wVVgrqo8Wv7Y7');
+    } else if (command === 'rick2'){
+        message.channel.send('https://youtu.be/dQw4w9WgXcQ')
     }
 
 });
