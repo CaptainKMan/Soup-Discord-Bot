@@ -39,16 +39,16 @@ client.on('message', message => {
         if (!args.length) {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
-        else if (args[0] === fluxsoup) {
+        else if (args[0] === 'fluxsoup') {
             const fluxsoup = new Discord.MessageEmbed()
                 .setColor('#0099ff')
                 .setTitle('FluxSoup. (a.k.a Scott)')
                 .setURL('')
                 .setDescription('The founder and supreme leader of the Soup Kitchen.')
-                .setThumbnail()
+                .setThumbnail(client.user.avatar_url)
                 .setFooter('Last Updated by DoritoSoup on 7/17/2020.');
 
-            return message.channel.send(sluxsoup);
+            return message.channel.send('fluxsoup');
         }
         else if (args[0] === 'doritosoup') {
             return message.channel.send('*Under Construction*')
