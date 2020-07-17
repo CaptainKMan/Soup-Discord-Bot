@@ -40,12 +40,12 @@ client.on('message', message => {
             return message.channel.send(`You didn't specify a Soup member, ${message.author}!`);
         }
         else if (args[0] === 'fluxsoup'){
-            const fluxsoup = new Discord.MessageEmbed()
-            .setColor('#0099ff')
-            .setTitle('FluxSoup. (a.k.a Scott)')
-            .setURL('')
-            .setDescription('The founder and supreme leader of the Soup Kitchen.')
-            .setThumbnail(client.guilds.resolve('<704885544986869841>').members.resolve('<@142126035301957632>').user.avatarURL())
+            const fluxsoup = new Discord.MessageEmbed();
+            .setColor('#0099ff');
+            .setTitle('FluxSoup. (a.k.a Scott)');
+            .setURL('');
+            .setDescription('The founder and supreme leader of the Soup Kitchen.');
+            .setThumbnail(client.guilds.resolve('<704885544986869841>').members.resolve('<@142126035301957632>').user.avatarURL());
             .setFooter('Last Updated by DoritoSoup on 7/17/2020.', client.guilds.resolve(704885544986869841).users.resolve('<@357663989418688513>').user.avatarURL());
         
         return message.channel.send(fluxsoup);
