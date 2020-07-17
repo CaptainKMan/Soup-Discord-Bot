@@ -45,10 +45,10 @@ client.on('message', message => {
                 .setTitle('FluxSoup. (a.k.a Scott)')
                 .setURL('')
                 .setDescription('The founder and supreme leader of the Soup Kitchen.')
-                .setThumbnail(client.user.avatar_url)
+                .setThumbnail()
                 .setFooter('Last Updated by DoritoSoup on 7/17/2020.');
 
-            return message.channel.send('fluxsoup');
+            return message.channel.send(fluxsoup);
         }
         else if (args[0] === 'doritosoup') {
             return message.channel.send('*Under Construction*')
