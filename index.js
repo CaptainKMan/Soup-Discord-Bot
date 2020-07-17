@@ -64,7 +64,7 @@ client.on('message', message =>{
     } else if (message.content === 'Lmao'){
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
     } else if (message.content === 'help'){
-        author.send('https://github.com/CaptainKMan/Readme/blob/953ba0201c9f4140467dfc4228e719cbd583a0c2/README.md');
+        message.author.reply('https://github.com/CaptainKMan/Readme/blob/953ba0201c9f4140467dfc4228e719cbd583a0c2/README.md');
     }
 
 });
