@@ -38,11 +38,11 @@ client.on('message', message =>{
     } 
     
     switch(args[0]){
-        case 'member':
+        case (command === 'member'):
             if(args[1] === 'MemeSoup.'){
                 message.channel.send('*Under Construction*');
             }else{
-                
+
             }
     }
 
