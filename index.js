@@ -126,19 +126,19 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === "fuck") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE F-WORD');
     } else if (message.content === "fruck") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE FR-WORD');
     } else if (message.content === "Fruck") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE FR-WORD');
     } else if (message.content === "FRUCK") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE FR-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE FR-WORD');
     } else if (message.content === "FUCK") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE F-WORD');
     } else if (message.content === "Fuck") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE F-WORD');
     } else if (message.content === "fuck") {
-        message.reply('SWORE DETECTOR HAS DECTECTED THE USE OF THE F-WORD');
+        message.reply('SWORE DETECTOR HAS DETECTED THE USE OF THE F-WORD');
     } else if (message.content === 'ping') {
         message.channel.send('Pong!')
     } else if (message.content === 'Ping') {
