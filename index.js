@@ -116,11 +116,12 @@ client.on('message', message => {
 
             return message.channel.send(chungussoup);
         }
+        message.channel.send(`${args[0]} is not a Soup!`);
     }
 
 
 
-    message.channel.send(`${args[0]} is not a Soup!`);
+
 });
 
 
