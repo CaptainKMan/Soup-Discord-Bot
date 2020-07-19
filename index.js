@@ -148,9 +148,7 @@ client.on('message', message => {
         message.channel.send('Ping!')
     } else if (message.content === 'Pong') {
         message.channel.send('Ping!')
-    } else if (message.content === 'lol') {
-        message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
-    } else if (message.content === 'LMAO') {
+    } else if (message.content === 'roll') {
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
     } else if (message.content === 'LoL') {
         message.channel.send('https://cdn.dlcordapp.com/attachments/486699197131915266/710452259770728448/cute_koishi.png');
