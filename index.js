@@ -66,9 +66,9 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('MemeSoup. (a.k.a DaeCu8603)')
                 .setURL('https://twitch.tv/daecu8603')
-                .setDescription('The one Soup Kitchen member that never stops posting iFunny memes.')
+                .setDescription('The Soup Kitchen member that has an unlimited amount of snacks at his fingertips.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/398587405369737217/ffe2226276e727ee4de0d47d95eeb929.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
             return message.channel.send(memesoup);
         }
@@ -77,9 +77,9 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('GhostSoup. (a.k.a GhostRaider)')
                 .setURL('https://www.twitch.tv/ghostsoop')
-                .setDescription('The only legitimate weeb in the Soup kitchen.')
+                .setDescription('The only Soup kitchen member who cannot install things on hs own PC.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/513683756012273664/854fd909441c5c116484fbea87b1e0fe.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
             return message.channel.send(ghostsoup);
         }
@@ -88,9 +88,9 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('ElmoSoup. (a.k.a TZAR_ELMO)')
                 .setURL('')
-                .setDescription('The one Soup Kitchen member who likes elmo a little too much.')
+                .setDescription('The Soup Kitchen member who likes foreign cars, watches, and LOVES spaghetti.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/399172695213735936/e490fc22be4ff420245998a1e5f4fa12.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
             return message.channel.send(elmosoup);
         }
@@ -99,9 +99,9 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('BearSoup. (a.k.a Josephbres_V12)')
                 .setURL('https://www.youtube.com/channel/UCvTds_DwADGRxGwSwmOpM9w?view_as=subscriber')
-                .setDescription('The only Soup Kitchen member who has a somewhat successful YouTube channel.')
+                .setDescription('The only Soup Kitchen member who leaves and joins the Discord server many times a day.')
                 .setThumbnail('https://media.discordapp.net/attachments/710514766082474044/724962527162794044/rainbow.gif')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
             return message.channel.send(bearsoup);
         }
