@@ -77,7 +77,7 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('GhostSoup. (a.k.a GhostRaider)')
                 .setURL('https://www.twitch.tv/ghostsoop')
-                .setDescription('The only Soup kitchen member who cannot install things on hs own PC.')
+                .setDescription('The only Soup kitchen member who cannot install things on his own PC.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/513683756012273664/854fd909441c5c116484fbea87b1e0fe.png?size=1024')
                 .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
