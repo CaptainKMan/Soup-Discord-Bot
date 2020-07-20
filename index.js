@@ -99,7 +99,7 @@ client.on('message', message => {
                 .setColor('#0099ff')
                 .setTitle('BearSoup. (a.k.a Josephbres_V12)')
                 .setURL('https://www.youtube.com/channel/UCvTds_DwADGRxGwSwmOpM9w?view_as=subscriber')
-                .setDescription('The only Soup Kitchen member who leaves and joins the Discord server many times a day.')
+                .setDescription('The only Soup Kitchen member who has left and joined the Discord server many times.')
                 .setThumbnail('https://media.discordapp.net/attachments/710514766082474044/724962527162794044/rainbow.gif')
                 .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024');
 
