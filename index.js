@@ -30,7 +30,7 @@ client.on('message', message => {
             message.channel.send('<@513683756012273664>'),
             message.channel.send('<@398587405369737217>');
     } else if (command === 'help') {
-        message.author.send('https://raw.githubusercontent.com/CaptainKMan/Readme/master/README.md');
+        message.channel.send('```https://raw.githubusercontent.com/CaptainKMan/Readme/master/README.md```');
     } else if (command === 'rick') {
         message.channel.send('https://images.app.goo.gl/oTt3wVVgrqo8Wv7Y7');
     } else if (command === 'rick2') {
