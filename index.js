@@ -46,7 +46,7 @@ client.on('message', message => {
                 .setURL('https://www.twitch.tv/thejellysoup')
                 .setDescription('The founder and supreme leader of the Soup Kitchen.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/142126035301957632/08b1a2878dfc107da0fa93b9231bf440.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(fluxsoup);
         }
@@ -56,8 +56,8 @@ client.on('message', message => {
                 .setTitle('DoritoSoup. (a.k.a Captain_KMan)')
                 .setURL('https://twitch.tv/dorito__soup')
                 .setDescription('The CEO and promoter of the Soup Kitchen.')
-                .setThumbnail('https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setThumbnail('https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024')
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(doritosoup);
         }
@@ -68,7 +68,7 @@ client.on('message', message => {
                 .setURL('https://twitch.tv/daecu8603')
                 .setDescription('The Soup Kitchen member that has an unlimited amount of snacks at his fingertips.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/398587405369737217/ffe2226276e727ee4de0d47d95eeb929.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(memesoup);
         }
@@ -79,7 +79,7 @@ client.on('message', message => {
                 .setURL('https://www.twitch.tv/ghostsoop')
                 .setDescription('The only Soup kitchen member who cannot install things on his own PC.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/513683756012273664/854fd909441c5c116484fbea87b1e0fe.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(ghostsoup);
         }
@@ -90,7 +90,7 @@ client.on('message', message => {
                 .setURL('')
                 .setDescription('The Soup Kitchen member who likes foreign cars, watches, and LOVES spaghetti.')
                 .setThumbnail('https://cdn.discordapp.com/avatars/399172695213735936/e490fc22be4ff420245998a1e5f4fa12.png?size=1024')
-                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(elmosoup);
         }
@@ -101,7 +101,7 @@ client.on('message', message => {
                 .setURL('https://www.youtube.com/channel/UCvTds_DwADGRxGwSwmOpM9w?view_as=subscriber')
                 .setDescription('The only Soup Kitchen member who has left and joined the Discord server many times.')
                 .setThumbnail('https://media.discordapp.net/attachments/710514766082474044/724962527162794044/rainbow.gif')
-                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/20/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(bearsoup);
         }
@@ -112,7 +112,7 @@ client.on('message', message => {
                 .setURL('https://www.youtube.com/channel/UCG-I_ZhYde5yWZl6i86UqAQ')
                 .setDescription('The one Soup Kitchen member who always leaves games in the middle of matches.')
                 .setThumbnail('https://i.pinimg.com/236x/6e/eb/ec/6eebec182f4d5b235cd7fea6037484d1.jpg')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/31443e5074dc820a1cd8d0e3fbe6b1cc.png?size=1024');
+                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
             return message.channel.send(chungussoup);
         }
