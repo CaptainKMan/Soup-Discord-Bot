@@ -56,7 +56,7 @@ client.on('message', message => {
                 .setTitle('DoritoSoup. (a.k.a Captain_KMan)')
                 .setURL('https://twitch.tv/dorito__soup')
                 .setDescription('The CEO and promoter of the Soup Kitchen.')
-                .setThumbnail('https://cdn.discordapp.com/avatars/357663989418688513/efba3105379791574e341696fd4a5334.png?size=1024')
+                .setThumbnail('https://cdn.discordapp.com/avatars/357663989418688513/0a99575737920fa17046bdf3998960fc.png?size=128')
                 .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/0a99575737920fa17046bdf3998960fc.png?size=128');
 
             return message.channel.send(doritosoup);
