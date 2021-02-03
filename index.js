@@ -25,7 +25,7 @@ client.on('message', message => {
             message.channel.send('<@142126035301957632>'),
             message.channel.send('<@357663989418688513>'),
             message.channel.send('<@399172695213735936>'),
-            message.channel.send('<@622181058841935883>'),
+            //message.channel.send('<@622181058841935883>'),
             message.channel.send('<@330761771943985155>'),
             message.channel.send('<@513683756012273664>'),
             message.channel.send('<@398587405369737217>');
@@ -105,17 +105,17 @@ client.on('message', message => {
 
             return message.channel.send(bearsoup);
         }
-        else if (args[0] === 'chungussoup') {
-            const chungussoup = new Discord.MessageEmbed()
-                .setColor('#0099ff')
-                .setTitle('ChungusSoup. (a.k.a GamePlay2534)')
-                .setURL('https://www.youtube.com/channel/UCG-I_ZhYde5yWZl6i86UqAQ')
-                .setDescription('The one Soup Kitchen member who always leaves games in the middle of matches.')
-                .setThumbnail('https://i.pinimg.com/236x/6e/eb/ec/6eebec182f4d5b235cd7fea6037484d1.jpg')
-                .setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
+        //else if (args[0] === 'chungussoup') {
+            //const chungussoup = new Discord.MessageEmbed()
+                //.setColor('#0099ff')
+                //.setTitle('ChungusSoup. (a.k.a GamePlay2534)')
+                //.setURL('https://www.youtube.com/channel/UCG-I_ZhYde5yWZl6i86UqAQ')
+                //.setDescription('The one Soup Kitchen member who always leaves games in the middle of matches.')
+                //.setThumbnail('https://i.pinimg.com/236x/6e/eb/ec/6eebec182f4d5b235cd7fea6037484d1.jpg')
+                //.setFooter('Last Updated by DoritoSoup on 7/17/2020.', 'https://cdn.discordapp.com/avatars/357663989418688513/3a580b5ffa084f4ad73fb9816bcd04d9.png?size=1024');
 
-            return message.channel.send(chungussoup);
-        }
+            //return message.channel.send(chungussoup);
+        //}
         message.channel.send(`${args[0]} is not a Soup!`);
     }
 
